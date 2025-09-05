@@ -1,0 +1,116 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Space Mono", monospace;
+    background-color: #dbd56e;
+}
+
+img {
+    width: 100px;
+}
+
+#hero {
+    background-image: url("images/hamme.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+#hero-h1{
+    color: #F1FAEE;
+    background-color: #88ab75;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+#hero-h2{
+    color: #F1FAEE;
+    background-color: #2d93ad;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 25px;
+}
+
+#activities{
+    padding: 20px;
+    height: 400px;
+}
+
+#activity-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+
+.activity{
+    border: 1px solid #2d93ad;
+    border-radius: 15px;
+    background: linear-gradient(#88ab75, #2d93ad);
+    width: 200px;
+    height: 350px;
+    padding: 10px;
+}
+
+.activity img{
+    border: none;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 10px
+}
+
+#guide{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#guide-info{
+    background-color: #de8f6e;
+    border: none;
+    border-radius: 15px;
+    width: 400px;
+    height: 250px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#guide-info img{
+    width: 180px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px #7d7c84;
+}
+
+#bio{
+    padding: 40px 20px;
+}
+
+#walk:hover {
+    content: url("images/oude_durme.jpg");
+}
+
+#napoleon:hover {
+    content: url("images/napoleon.jpg");
+}
+
+#wuitens:hover {
+    content: url("images/die-hamse-wuitens.jpg");
+}
